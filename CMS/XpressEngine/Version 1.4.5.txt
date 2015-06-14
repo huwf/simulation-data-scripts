@@ -1,0 +1,24 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.10', 38.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.7', 28.900000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.9', 8.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.20', 4.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.21', 4.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.13', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.19', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.5', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.11', 1.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.15', 1.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.4', 1.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.8', 0.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';

@@ -1,0 +1,2 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 100.000000 FROM CMSSoftware WHERE Name = 'Movable Type';

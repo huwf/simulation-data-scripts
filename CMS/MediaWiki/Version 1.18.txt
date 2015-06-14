@@ -1,0 +1,10 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.1', 53.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.0', 25.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.2', 12.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.3', 7.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.5', 1.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';

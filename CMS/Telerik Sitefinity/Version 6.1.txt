@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4300', 42.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4700', 28.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4600', 27.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4601', 2.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';

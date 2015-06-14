@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.6', 70.700000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.5', 25.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4', 2.300000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.3', 1.200000 FROM CMSSoftware WHERE Name = 'Liferay';

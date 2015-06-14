@@ -1,0 +1,18 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 48.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.9', 28.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.1', 7.700000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.6', 3.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.8', 3.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.01', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.2', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.4', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.7', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';

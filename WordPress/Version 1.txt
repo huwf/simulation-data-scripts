@@ -1,0 +1,13 @@
+/*
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.3', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+
+*/

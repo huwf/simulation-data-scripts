@@ -1,0 +1,4 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.0', 81.600000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.5', 18.400000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';

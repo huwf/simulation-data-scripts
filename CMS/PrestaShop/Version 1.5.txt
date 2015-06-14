@@ -1,0 +1,4 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.6', 90.000000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.4', 10.000000 FROM CMSSoftware WHERE Name = 'PrestaShop';

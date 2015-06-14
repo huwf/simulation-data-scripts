@@ -1,0 +1,830 @@
+
+<!doctype html>
+<html class="windows x86 no-js" lang="en-US" dir="ltr" data-latest-firefox="28.0" data-esr-versions="[10, 17, 24]">
+  <head>
+    <meta charset="utf-8"><!--
+             _.-~-.
+           7''  Q..\
+        _7         (_
+      _7  _/    _q.  /
+    _7 . ___  /VVvv-'_                                            .
+   7/ / /~- \_\\      '-._     .-'                      /       //
+  ./ ( /-~-/||'=.__  '::. '-~'' {             ___   /  //     ./{
+ V   V-~-~| ||   __''_   ':::.   ''~-~.___.-'' _/  // / {_   /  {  /
+  VV/-~-~-|/ \ .'__'. '.    '::                     _ _ _        ''.
+  / /~~~~||VVV/ /  \ )  \        _ __ ___   ___ ___(_) | | __ _   .::'
+ / (~-~-~\\.-' /    \'   \::::. | '_ ` _ \ / _ \_  / | | |/ _` | :::'
+/..\    /..\__/      '     '::: | | | | | | (_) / /| | | | (_| | ::'
+vVVv    vVVv                 ': |_| |_| |_|\___/___|_|_|_|\__,_| ''
+
+Hi there, nice to meet you!
+
+Interested in having a direct impact on hundreds of millions of users? Join
+Mozilla, and become part of a global community that’s helping to build a
+brighter future for the Web.
+
+Visit https://careers.mozilla.org to learn about our current job openings.
+Visit https://www.mozilla.org/contribute for more ways to get involved and
+help support Mozilla.-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>Mozilla Firefox Web Browser — Mozilla Firefox Release Notes — Mozilla</title>
+    <meta name="description" content="Release notes for each version of Firefox.">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Mozilla">
+    <meta property="og:locale" content="en_US">
+    <meta property="og:url" content="http://www.mozilla.org/en-US/firefox/releases/">
+    <meta property="og:image" content="https://mozorg.cdn.mozilla.net/media/img/firefox/firefox-256.jpg">
+    <meta property="og:title" content="Mozilla Firefox Web Browser — Mozilla Firefox Release Notes">
+    <meta property="og:description" content="Release notes for each version of Firefox.">
+    <meta property="fb:page_id" content="14696440021">
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@firefox">
+    <meta name="twitter:domain" content="mozilla.org">
+    <meta name="twitter:app:name:googleplay" content="Firefox">
+    <meta name="twitter:app:id:googleplay" content="org.mozilla.firefox">
+    <link rel="shortcut icon" href="//mozorg.cdn.mozilla.net/media/img/firefox/favicon.ico?2013-08">
+        <link rel="canonical" hreflang="en-US" href="http://www.mozilla.org/en-US/firefox/releases/">
+    <link rel="alternate" hreflang="x-default" href="http://www.mozilla.org/firefox/releases/">
+    <link rel="alternate" hreflang="en-US" href="http://www.mozilla.org/en-US/firefox/releases/" title="English (US)">
+        
+          <link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/tabzilla-min.css?build=b41d3e8" />
+    
+    <!--[if lte IE 8]>
+    <script src="//mozorg.cdn.mozilla.net/media/js/libs/html5shiv.js"></script>
+    <![endif]-->
+
+      <link rel="stylesheet" media="screen,projection,tv" href="//mozorg.cdn.mozilla.net/media/css/firefox_releases_index-min.css?build=b41d3e8" />
+
+    
+    
+    <script src="//mozorg.cdn.mozilla.net/media/js/site-min.js?build=b41d3e8"></script>
+
+            <script src="//cdn.optimizely.com/js/246059135.js"></script>
+    
+              <script>
+var _gaq = _gaq || [];
+var pluginUrl = '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
+_gaq.push(['_setAccount', 'UA-36116321-1']);
+_gaq.push(['_setAllowLinker', true]);
+_gaq.push(['_setAllowAnchor', true]);
+_gaq.push(['_gat._anonymizeIp']);
+_gaq.push(['_trackPageview']);
+
+(function() {
+    var ga = document.createElement('script');
+    ga.type = 'text/javascript';
+    ga.async = true;
+
+    var prefix = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www');
+    ga.src = prefix + '.google-analytics.com/ga.js';
+
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(ga, s);
+})();
+</script>      </head>
+
+  <body id="firefox-releases-index" class="html-ltr sky">
+    <div id="strings" data-global-close="Close" ></div>
+    <div id="outer-wrapper">
+    <div id="wrapper">
+
+          <header id="masthead">
+        <a href="/en-US/" id="tabzilla" data-infobar="translation">Mozilla</a>
+        <span class="toggle" role="button" aria-controls="nav-main-menu" tabindex="0">Menu</span>
+<nav id="nav-main" role="navigation">
+  <ul id="nav-main-menu" class="has-submenus">
+    <li class="first" id="nav-main-features"><a href="/en-US/firefox/fx/#desktop" tabindex="0" aria-owns="nav-main-features-submenu" aria-haspopup="true">Desktop</a>
+      <ul aria-expanded="false" id="nav-main-features-submenu" class="submenu">
+        <li class="first"><a href="/en-US/firefox/features/" tabindex="-1">Features</a></li>
+        <li><a href="/en-US/firefox/customize/" tabindex="-1">Customize</a></li>
+        <li><a href="/en-US/firefox/performance/" tabindex="-1">Performance</a></li>
+        <li><a href="/en-US/firefox/technology/" tabindex="-1">Technology</a></li>
+        <li class="last"><a href="/en-US/firefox/security/" tabindex="-1">Privacy &amp; Security</a></li>
+      </ul>
+    </li>
+    <li id="nav-main-mobile"><a href="/en-US/firefox/fx/" tabindex="0" aria-owns="nav-main-mobile-submenu" aria-haspopup="true">Mobile</a>
+      <ul aria-expanded="false" id="nav-main-mobile-submenu" class="submenu">
+        <li class="first"><a href="/en-US/firefox/mobile/features/" tabindex="-1">Features</a></li>
+        <li><a href="https://addons.mozilla.org/en-US/mobile/?browse=featured" tabindex="-1">Customize</a></li>
+        <li class="last"><a href="/en-US/firefox/mobile/faq/" tabindex="-1">FAQ</a></li>
+      </ul>
+    </li>
+    <li id="nav-main-releases" class=""><a href="/en-US/firefox/channel/" tabindex="0" aria-owns="nav-main-releases-submenu" aria-haspopup="true">Releases</a>
+      <ul aria-expanded="false" id="nav-main-releases-submenu" class="submenu">
+        <li class="first"><a href="/en-US/firefox/channel/" tabindex="-1">Overview</a></li>
+        <li><a href="/en-US/firefox/aurora/" tabindex="-1">Firefox Aurora</a></li>
+        <li><a href="/beta/" tabindex="-1">Firefox Beta</a></li>
+        <li><a href="/en-US/firefox/" tabindex="-1">Firefox</a></li>
+        <li class="last"><a href="/en-US/firefox/organizations/" tabindex="-1">Firefox for Organizations</a></li>
+      </ul>
+    </li>
+    <li id="nav-main-addons"><a href="https://addons.mozilla.org/" tabindex="0" aria-owns="nav-main-addons-submenu" aria-haspopup="true">Add-ons</a>
+      <ul aria-expanded="false" id="nav-main-addons-submenu" class="submenu">
+        <li class="first"><a href="https://addons.mozilla.org/firefox/" tabindex="-1">Desktop Add-ons</a></li>
+        <li><a href="https://addons.mozilla.org/android/" tabindex="-1">Mobile Add-ons</a></li>
+        <li class="last"><a href="https://addons.mozilla.org/firefox/themes/" tabindex="-1">Themes</a></li>
+      </ul>
+      </li>
+      <li id="nav-main-support"><a href="https://support.mozilla.org/" tabindex="0" aria-owns="nav-main-support-submenu" aria-haspopup="true">Support</a>
+      <ul aria-expanded="false" id="nav-main-support-submenu" class="submenu">
+        <li class="first"><a href="https://support.mozilla.org/products/firefox" tabindex="-1">Desktop Support</a></li>
+        <li class="last"><a href="https://support.mozilla.org/products/mobile" tabindex="-1">Mobile Support</a></li>
+      </ul>
+    </li>
+    <li class="last" id="nav-main-about"><a href="/en-US/firefox/about/" tabindex="0" aria-owns="nav-main-about-submenu" aria-haspopup="true">About</a>
+      <ul aria-expanded="false" id="nav-main-about-submenu" class="submenu">
+        <li class="first"><a href="https://blog.mozilla.org/" tabindex="-1">Blog</a></li>
+        <li><a href="/en-US/firefox/about/" tabindex="-1">About Firefox</a></li>
+        <li><a href="/join" tabindex="-1">Join Mozilla</a></li>
+        <li><a href="/en-US/about/participate/" tabindex="-1">Participate</a></li>
+        <li><a href="https://blog.mozilla.org/press/" tabindex="-1">Press Center</a></li>
+        <li><a href="/en-US/firefox/brand/" tabindex="-1">Brand Toolkit</a></li>
+        <li><a href="https://careers.mozilla.org" tabindex="-1">Careers</a></li>
+        <li><a href="/en-US/about/partnerships.html" tabindex="-1">Partnerships</a></li>
+        <li class="last"><a href="/en-US/contact/spaces/" tabindex="-1">Contact Us</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+
+        <h2><a href="/en-US/firefox/"><img src="//mozorg.cdn.mozilla.net/media/img/firefox/template/header-logo.png?2013-06" alt="Mozilla Firefox" height="70" width="185" data-inverse-src="//mozorg.cdn.mozilla.net/media/img/firefox/template/header-logo-inverse.png?2013-06"></a></h2>
+
+        
+        
+          <nav class="breadcrumbs">
+    <a href="/en-US/">Home</a> >
+    <a href="/en-US/firefox/new/">Firefox</a> >
+    <span>Release Notes</span>
+  </nav>
+
+      </header>
+    
+    
+              
+      <div id="main-feature">
+    <h1>Firefox Releases</h1>
+    <p>Firefox release notes are specific to each version of the application. Select your version from the list below to see the release notes for it.</p>
+  </div>
+
+  <div id="main-content">
+    <ol reversed>
+      <li>
+        <strong><a href="../28.0/releasenotes/">28.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../27.0/releasenotes/">27.0</a></strong>
+        <ol>
+          <li><a href="../27.0.1/releasenotes/">27.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../26.0/releasenotes/">26.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../25.0/releasenotes/">25.0</a></strong>
+        <ol>
+          <li><a href="../25.0.1/releasenotes/">25.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../24.0/releasenotes/">24.0</a></strong>
+        <ol>
+          <li><a href="../24.3.0/releasenotes/">24.3.0</a></li>
+          <li><a href="../24.2.0/releasenotes/">24.2.0</a></li>
+          <li><a href="../24.1.0/releasenotes/">24.1.0</a></li>
+          <li><a href="../24.4.0/releasenotes/">24.4.0</a></li>
+          <li><a href="../24.1.1/releasenotes/">24.1.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../23.0/releasenotes/">23.0</a></strong>
+        <ol>
+          <li><a href="../23.0.1/releasenotes/">23.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../22.0/releasenotes/">22.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../21.0/releasenotes/">21.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../20.0/releasenotes/">20.0</a></strong>
+        <ol>
+          <li><a href="../20.0.1/releasenotes/">20.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../19.0/releasenotes/">19.0</a></strong>
+        <ol>
+          <li><a href="../19.0.1/releasenotes/">19.0.1</a></li>
+          <li><a href="../19.0.2/releasenotes/">19.0.2</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../18.0/releasenotes/">18.0</a></strong>
+        <ol>
+          <li><a href="../18.0.1/releasenotes/">18.0.1</a></li>
+          <li><a href="../18.0.2/releasenotes/">18.0.2</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../17.0/releasenotes/">17.0</a></strong>
+        <ol>
+          <li><a href="../17.0.1/releasenotes/">17.0.1</a></li>
+          <li><a href="../17.0.2/releasenotes/">17.0.2</a></li>
+          <li><a href="../17.0.3/releasenotes/">17.0.3</a></li>
+          <li><a href="../17.0.4/releasenotes/">17.0.4</a></li>
+          <li><a href="../17.0.5/releasenotes/">17.0.5</a></li>
+          <li><a href="../17.0.6/releasenotes/">17.0.6</a></li>
+          <li><a href="../17.0.7/releasenotes/">17.0.7</a></li>
+          <li><a href="../17.0.8/releasenotes/">17.0.8</a></li>
+          <li><a href="../17.0.9/releasenotes/">17.0.9</a></li>
+          <li><a href="../17.0.10/releasenotes/">17.0.10</a></li>
+          <li><a href="../17.0.11/releasenotes/">17.0.11</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../16.0/releasenotes/">16.0</a></strong>
+        <ol>
+          <li><a href="../16.0.1/releasenotes/">16.0.1</a></li>
+          <li><a href="../16.0.2/releasenotes/">16.0.2</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../15.0/releasenotes/">15.0</a></strong>
+        <ol>
+          <li><a href="../15.0.1/releasenotes/">15.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../14.0.1/releasenotes/">14.0.1</a></strong>
+        </li>
+      <li>
+        <strong><a href="../13.0/releasenotes/">13.0</a></strong>
+        <ol>
+          <li><a href="../13.0.1/releasenotes/">13.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../12.0/releasenotes/">12.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../11.0/releasenotes/">11.0</a></strong>
+        </li>
+      <li>
+        <strong><a href="../10.0/releasenotes/">10.0</a></strong>
+        <ol>
+          <li><a href="../10.0.1/releasenotes/">10.0.1</a></li>
+          <li><a href="../10.0.2/releasenotes/">10.0.2</a></li>
+          <li><a href="../10.0.3/releasenotes/">10.0.3</a></li>
+          <li><a href="../10.0.4/releasenotes/">10.0.4</a></li>
+          <li><a href="../10.0.5/releasenotes/">10.0.5</a></li>
+          <li><a href="../10.0.6/releasenotes/">10.0.6</a></li>
+          <li><a href="../10.0.7/releasenotes/">10.0.7</a></li>
+          <li><a href="../10.0.8/releasenotes/">10.0.8</a></li>
+          <li><a href="../10.0.9/releasenotes/">10.0.9</a></li>
+          <li><a href="../10.0.10/releasenotes/">10.0.10</a></li>
+          <li><a href="../10.0.11/releasenotes/">10.0.11</a></li>
+          <li><a href="../10.0.12/releasenotes/">10.0.12</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../9.0/releasenotes/">9.0</a></strong>
+        <ol>
+          <li><a href="../9.0.1/releasenotes/">9.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../8.0/releasenotes/">8.0</a></strong>
+        <ol>
+          <li><a href="../8.0.1/releasenotes/">8.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../7.0/releasenotes/">7.0</a></strong>
+        <ol>
+          <li><a href="../7.0.1/releasenotes/">7.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../6.0/releasenotes/">6.0</a></strong>
+        <ol>
+          <li><a href="../6.0.1/releasenotes/">6.0.1</a></li>
+          <li><a href="../6.0.2/releasenotes/">6.0.2</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../5.0/releasenotes/">5.0</a></strong>
+        <ol>
+          <li><a href="../5.0.1/releasenotes/">5.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../4.0/releasenotes/">4.0</a></strong>
+        <ol>
+          <li><a href="../4.0.1/releasenotes/">4.0.1</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../3.6/releasenotes/">3.6</a></strong>
+        <ol>
+          <li><a href="../3.6.2/releasenotes/">3.6.2</a></li>
+          <li><a href="../3.6.3/releasenotes/">3.6.3</a></li>
+          <li><a href="../3.6.4/releasenotes/">3.6.4</a></li>
+          <li><a href="../3.6.6/releasenotes/">3.6.6</a></li>
+          <li><a href="../3.6.7/releasenotes/">3.6.7</a></li>
+          <li><a href="../3.6.8/releasenotes/">3.6.8</a></li>
+          <li><a href="../3.6.9/releasenotes/">3.6.9</a></li>
+          <li><a href="../3.6.10/releasenotes/">3.6.10</a></li>
+          <li><a href="../3.6.11/releasenotes/">3.6.11</a></li>
+          <li><a href="../3.6.12/releasenotes/">3.6.12</a></li>
+          <li><a href="../3.6.13/releasenotes/">3.6.13</a></li>
+          <li><a href="../3.6.14/releasenotes/">3.6.14</a></li>
+          <li><a href="../3.6.15/releasenotes/">3.6.15</a></li>
+          <li><a href="../3.6.16/releasenotes/">3.6.16</a></li>
+          <li><a href="../3.6.17/releasenotes/">3.6.17</a></li>
+          <li><a href="../3.6.18/releasenotes/">3.6.18</a></li>
+          <li><a href="../3.6.19/releasenotes/">3.6.19</a></li>
+          <li><a href="../3.6.20/releasenotes/">3.6.20</a></li>
+          <li><a href="../3.6.21/releasenotes/">3.6.21</a></li>
+          <li><a href="../3.6.22/releasenotes/">3.6.22</a></li>
+          <li><a href="../3.6.23/releasenotes/">3.6.23</a></li>
+          <li><a href="../3.6.24/releasenotes/">3.6.24</a></li>
+          <li><a href="../3.6.25/releasenotes/">3.6.25</a></li>
+          <li><a href="../3.6.26/releasenotes/">3.6.26</a></li>
+          <li><a href="../3.6.27/releasenotes/">3.6.27</a></li>
+          <li><a href="../3.6.28/releasenotes/">3.6.28</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../3.5/releasenotes/">3.5</a></strong>
+        <ol>
+          <li><a href="../3.5.1/releasenotes/">3.5.1</a></li>
+          <li><a href="../3.5.2/releasenotes/">3.5.2</a></li>
+          <li><a href="../3.5.3/releasenotes/">3.5.3</a></li>
+          <li><a href="../3.5.4/releasenotes/">3.5.4</a></li>
+          <li><a href="../3.5.5/releasenotes/">3.5.5</a></li>
+          <li><a href="../3.5.6/releasenotes/">3.5.6</a></li>
+          <li><a href="../3.5.7/releasenotes/">3.5.7</a></li>
+          <li><a href="../3.5.8/releasenotes/">3.5.8</a></li>
+          <li><a href="../3.5.9/releasenotes/">3.5.9</a></li>
+          <li><a href="../3.5.10/releasenotes/">3.5.10</a></li>
+          <li><a href="../3.5.11/releasenotes/">3.5.11</a></li>
+          <li><a href="../3.5.12/releasenotes/">3.5.12</a></li>
+          <li><a href="../3.5.13/releasenotes/">3.5.13</a></li>
+          <li><a href="../3.5.14/releasenotes/">3.5.14</a></li>
+          <li><a href="../3.5.15/releasenotes/">3.5.15</a></li>
+          <li><a href="../3.5.16/releasenotes/">3.5.16</a></li>
+          <li><a href="../3.5.17/releasenotes/">3.5.17</a></li>
+          <li><a href="../3.5.18/releasenotes/">3.5.18</a></li>
+          <li><a href="../3.5.19/releasenotes/">3.5.19</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../3.0/releasenotes/">3.0</a></strong>
+        <ol>
+          <li><a href="../3.0.1/releasenotes/">3.0.1</a></li>
+          <li><a href="../3.0.2/releasenotes/">3.0.2</a></li>
+          <li><a href="../3.0.3/releasenotes/">3.0.3</a></li>
+          <li><a href="../3.0.4/releasenotes/">3.0.4</a></li>
+          <li><a href="../3.0.5/releasenotes/">3.0.5</a></li>
+          <li><a href="../3.0.6/releasenotes/">3.0.6</a></li>
+          <li><a href="../3.0.7/releasenotes/">3.0.7</a></li>
+          <li><a href="../3.0.8/releasenotes/">3.0.8</a></li>
+          <li><a href="../3.0.9/releasenotes/">3.0.9</a></li>
+          <li><a href="../3.0.10/releasenotes/">3.0.10</a></li>
+          <li><a href="../3.0.11/releasenotes/">3.0.11</a></li>
+          <li><a href="../3.0.12/releasenotes/">3.0.12</a></li>
+          <li><a href="../3.0.13/releasenotes/">3.0.13</a></li>
+          <li><a href="../3.0.14/releasenotes/">3.0.14</a></li>
+          <li><a href="../3.0.15/releasenotes/">3.0.15</a></li>
+          <li><a href="../3.0.16/releasenotes/">3.0.16</a></li>
+          <li><a href="../3.0.17/releasenotes/">3.0.17</a></li>
+          <li><a href="../3.0.18/releasenotes/">3.0.18</a></li>
+          <li><a href="../3.0.19/releasenotes/">3.0.19</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="../2.0/releasenotes/">2.0</a></strong>
+        <ol>
+          <li><a href="../2.0.0.1/releasenotes/">2.0.0.1</a></li>
+          <li><a href="../2.0.0.2/releasenotes/">2.0.0.2</a></li>
+          <li><a href="../2.0.0.3/releasenotes/">2.0.0.3</a></li>
+          <li><a href="../2.0.0.4/releasenotes/">2.0.0.4</a></li>
+          <li><a href="../2.0.0.5/releasenotes/">2.0.0.5</a></li>
+          <li><a href="../2.0.0.6/releasenotes/">2.0.0.6</a></li>
+          <li><a href="../2.0.0.7/releasenotes/">2.0.0.7</a></li>
+          <li><a href="../2.0.0.8/releasenotes/">2.0.0.8</a></li>
+          <li><a href="../2.0.0.9/releasenotes/">2.0.0.9</a></li>
+          <li><a href="../2.0.0.10/releasenotes/">2.0.0.10</a></li>
+          <li><a href="../2.0.0.11/releasenotes/">2.0.0.11</a></li>
+          <li><a href="../2.0.0.12/releasenotes/">2.0.0.12</a></li>
+          <li><a href="../2.0.0.13/releasenotes/">2.0.0.13</a></li>
+          <li><a href="../2.0.0.14/releasenotes/">2.0.0.14</a></li>
+          <li><a href="../2.0.0.15/releasenotes/">2.0.0.15</a></li>
+          <li><a href="../2.0.0.16/releasenotes/">2.0.0.16</a></li>
+          <li><a href="../2.0.0.17/releasenotes/">2.0.0.17</a></li>
+          <li><a href="../2.0.0.18/releasenotes/">2.0.0.18</a></li>
+          <li><a href="../2.0.0.19/releasenotes/">2.0.0.19</a></li>
+          <li><a href="../2.0.0.20/releasenotes/">2.0.0.20</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="1.5.html">1.5</a></strong>
+        <ol>
+          <li><a href="1.5.0.1.html">1.5.0.1</a></li>
+          <li><a href="1.5.0.2.html">1.5.0.2</a></li>
+          <li><a href="1.5.0.3.html">1.5.0.3</a></li>
+          <li><a href="1.5.0.4.html">1.5.0.4</a></li>
+          <li><a href="1.5.0.5.html">1.5.0.5</a></li>
+          <li><a href="1.5.0.6.html">1.5.0.6</a></li>
+          <li><a href="1.5.0.7.html">1.5.0.7</a></li>
+          <li><a href="1.5.0.8.html">1.5.0.8</a></li>
+          <li><a href="1.5.0.9.html">1.5.0.9</a></li>
+          <li><a href="1.5.0.10.html">1.5.0.10</a></li>
+          <li><a href="1.5.0.11.html">1.5.0.11</a></li>
+          <li><a href="1.5.0.12.html">1.5.0.12</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="1.0.html">1.0</a></strong>
+        <ol>
+          <li><a href="1.0.1.html">1.0.1</a></li>
+          <li><a href="1.0.2.html">1.0.2</a></li>
+          <li><a href="1.0.3.html">1.0.3</a></li>
+          <li><a href="1.0.4.html">1.0.4</a></li>
+          <li><a href="1.0.5.html">1.0.5</a></li>
+          <li><a href="1.0.6.html">1.0.6</a></li>
+          <li><a href="1.0.7.html">1.0.7</a></li>
+          <li><a href="1.0.8.html">1.0.8</a></li>
+          </ol>
+        </li>
+      <li>
+        <strong><a href="0.1.html">0.1</a></strong>
+        <ol>
+          <li><a href="0.2.html">0.2</a></li>
+          <li><a href="0.3.html">0.3</a></li>
+          <li><a href="0.4.html">0.4</a></li>
+          <li><a href="0.5.html">0.5</a></li>
+          <li><a href="0.6.html">0.6</a></li>
+          <li><a href="0.6.1.html">0.6.1</a></li>
+          <li><a href="0.7.html">0.7</a></li>
+          <li><a href="0.7.1.html">0.7.1</a></li>
+          <li><a href="0.8.html">0.8</a></li>
+          <li><a href="0.9.html">0.9</a></li>
+          <li><a href="0.9.1.html">0.9.1/0.9.2</a></li>
+          <li><a href="0.9.3.html">0.9.3</a></li>
+          <li><a href="0.10.html">1.0 Preview Release</a></li>
+        </ol>
+      </li>
+    </ol>
+  </div>
+
+    
+  
+  <form class="billboard newsletter-form"
+            id="footer-email-form" action="http://www.mozilla.org/en-US/firefox/releases/#footer-email-form"
+            method="post">
+    <input type="hidden" name="newsletter" value="mozilla-and-you">
+    <input type="hidden" name="source_url" value="http://www.mozilla.org/en-US/firefox/releases/">
+
+          <h3>Get Firefox news</h3>
+    
+    <div class="form-contents">
+      <div class="field field-email ">
+        <input id="id_email" name="email" placeholder="YOUR EMAIL HERE" required="required" type="email" />
+      </div>
+
+      <div id="form-details">
+                  <div class="field field-country">
+            <select aria-required="true" id="id_country" name="country" required="required">
+<option value="af">Afghanistan</option>
+<option value="al">Albania</option>
+<option value="dz">Algeria</option>
+<option value="as">American Samoa</option>
+<option value="ad">Andorra</option>
+<option value="ao">Angola</option>
+<option value="ai">Anguilla</option>
+<option value="aq">Antarctica</option>
+<option value="ag">Antigua and Barbuda</option>
+<option value="ar">Argentina</option>
+<option value="am">Armenia</option>
+<option value="aw">Aruba</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="az">Azerbaijan</option>
+<option value="bs">Bahamas</option>
+<option value="bh">Bahrain</option>
+<option value="bd">Bangladesh</option>
+<option value="bb">Barbados</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="bz">Belize</option>
+<option value="bj">Benin</option>
+<option value="bm">Bermuda</option>
+<option value="bt">Bhutan</option>
+<option value="bo">Bolivia</option>
+<option value="ba">Bosnia and Herzegovina</option>
+<option value="bw">Botswana</option>
+<option value="bv">Bouvet Island</option>
+<option value="br">Brazil</option>
+<option value="io">British Indian Ocean Territory</option>
+<option value="vg">British Virgin Islands</option>
+<option value="bn">Brunei Darussalam</option>
+<option value="bg">Bulgaria</option>
+<option value="bf">Burkina Faso</option>
+<option value="bi">Burundi</option>
+<option value="kh">Cambodia</option>
+<option value="cm">Cameroon</option>
+<option value="ca">Canada</option>
+<option value="cv">Cape Verde</option>
+<option value="ky">Cayman Islands</option>
+<option value="cf">Central African Republic</option>
+<option value="td">Chad</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="cx">Christmas Island</option>
+<option value="cc">Cocos (Keeling) Islands</option>
+<option value="co">Colombia</option>
+<option value="km">Comoros</option>
+<option value="cg">Congo-Brazzaville</option>
+<option value="cd">Congo-Kinshasa</option>
+<option value="ck">Cook Islands</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatia</option>
+<option value="cu">Cuba</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="dk">Denmark</option>
+<option value="dj">Djibouti</option>
+<option value="dm">Dominica</option>
+<option value="do">Dominican Republic</option>
+<option value="ec">Ecuador</option>
+<option value="eg">Egypt</option>
+<option value="sv">El Salvador</option>
+<option value="gq">Equatorial Guinea</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
+<option value="et">Ethiopia</option>
+<option value="fk">Falkland Islands (Malvinas)</option>
+<option value="fo">Faroe Islands</option>
+<option value="fj">Fiji</option>
+<option value="fi">Finland</option>
+<option value="fr">France</option>
+<option value="gf">French Guiana</option>
+<option value="pf">French Polynesia</option>
+<option value="tf">French Southern Territories</option>
+<option value="ga">Gabon</option>
+<option value="gm">Gambia</option>
+<option value="ge">Georgia</option>
+<option value="de">Germany</option>
+<option value="gh">Ghana</option>
+<option value="gi">Gibraltar</option>
+<option value="gr">Greece</option>
+<option value="gl">Greenland</option>
+<option value="gd">Grenada</option>
+<option value="gp">Guadeloupe</option>
+<option value="gu">Guam</option>
+<option value="gt">Guatemala</option>
+<option value="gg">Guernsey</option>
+<option value="gn">Guinea</option>
+<option value="gw">Guinea-Bissau</option>
+<option value="gy">Guyana</option>
+<option value="ht">Haiti</option>
+<option value="hm">Heard Island and McDonald Islands</option>
+<option value="hn">Honduras</option>
+<option value="hk">Hong Kong</option>
+<option value="hu">Hungary</option>
+<option value="is">Iceland</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ir">Iran</option>
+<option value="iq">Iraq</option>
+<option value="ie">Ireland</option>
+<option value="im">Isle of Man</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="ci">Ivory Coast</option>
+<option value="jm">Jamaica</option>
+<option value="jp">Japan</option>
+<option value="je">Jersey</option>
+<option value="jo">Jordan</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="ki">Kiribati</option>
+<option value="kw">Kuwait</option>
+<option value="kg">Kyrgyzstan</option>
+<option value="la">Laos</option>
+<option value="lv">Latvia</option>
+<option value="lb">Lebanon</option>
+<option value="ls">Lesotho</option>
+<option value="lr">Liberia</option>
+<option value="ly">Libya</option>
+<option value="li">Liechtenstein</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="mo">Macao</option>
+<option value="mk">Macedonia, F.Y.R. of</option>
+<option value="mg">Madagascar</option>
+<option value="mw">Malawi</option>
+<option value="my">Malaysia</option>
+<option value="mv">Maldives</option>
+<option value="ml">Mali</option>
+<option value="mt">Malta</option>
+<option value="mh">Marshall Islands</option>
+<option value="mq">Martinique</option>
+<option value="mr">Mauritania</option>
+<option value="mu">Mauritius</option>
+<option value="yt">Mayotte</option>
+<option value="mx">Mexico</option>
+<option value="fm">Micronesia</option>
+<option value="md">Moldova</option>
+<option value="mc">Monaco</option>
+<option value="mn">Mongolia</option>
+<option value="me">Montenegro</option>
+<option value="ms">Montserrat</option>
+<option value="ma">Morocco</option>
+<option value="mz">Mozambique</option>
+<option value="mm">Myanmar</option>
+<option value="na">Namibia</option>
+<option value="nr">Nauru</option>
+<option value="np">Nepal</option>
+<option value="nl">Netherlands</option>
+<option value="an">Netherlands Antilles</option>
+<option value="nc">New Caledonia</option>
+<option value="nz">New Zealand</option>
+<option value="ni">Nicaragua</option>
+<option value="ne">Niger</option>
+<option value="ng">Nigeria</option>
+<option value="nu">Niue</option>
+<option value="nf">Norfolk Island</option>
+<option value="kp">North Korea</option>
+<option value="mp">Northern Mariana Islands</option>
+<option value="no">Norway</option>
+<option value="ps">Occupied Palestinian Territory</option>
+<option value="om">Oman</option>
+<option value="pk">Pakistan</option>
+<option value="pw">Palau</option>
+<option value="pa">Panama</option>
+<option value="pg">Papua New Guinea</option>
+<option value="py">Paraguay</option>
+<option value="pe">Peru</option>
+<option value="ph">Philippines</option>
+<option value="pn">Pitcairn</option>
+<option value="pl">Poland</option>
+<option value="pt">Portugal</option>
+<option value="pr">Puerto Rico</option>
+<option value="qa">Qatar</option>
+<option value="re">Reunion</option>
+<option value="ro">Romania</option>
+<option value="ru">Russian Federation</option>
+<option value="rw">Rwanda</option>
+<option value="bl">Saint Barthélemy</option>
+<option value="sh">Saint Helena</option>
+<option value="kn">Saint Kitts and Nevis</option>
+<option value="lc">Saint Lucia</option>
+<option value="mf">Saint Martin</option>
+<option value="pm">Saint Pierre and Miquelon</option>
+<option value="vc">Saint Vincent and the Grenadines</option>
+<option value="ws">Samoa</option>
+<option value="sm">San Marino</option>
+<option value="st">Sao Tome and Principe</option>
+<option value="sa">Saudi Arabia</option>
+<option value="sn">Senegal</option>
+<option value="rs">Serbia</option>
+<option value="sc">Seychelles</option>
+<option value="sl">Sierra Leone</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovakia</option>
+<option value="si">Slovenia</option>
+<option value="sb">Solomon Islands</option>
+<option value="so">Somalia</option>
+<option value="za">South Africa</option>
+<option value="gs">South Georgia and the South Sandwich Islands</option>
+<option value="kr">South Korea</option>
+<option value="es">Spain</option>
+<option value="lk">Sri Lanka</option>
+<option value="sd">Sudan</option>
+<option value="sr">Suriname</option>
+<option value="sj">Svalbard and Jan Mayen</option>
+<option value="sz">Swaziland</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="sy">Syria</option>
+<option value="tw">Taiwan</option>
+<option value="tj">Tajikistan</option>
+<option value="tz">Tanzania</option>
+<option value="th">Thailand</option>
+<option value="tl">Timor-Leste</option>
+<option value="tg">Togo</option>
+<option value="tk">Tokelau</option>
+<option value="to">Tonga</option>
+<option value="tt">Trinidad and Tobago</option>
+<option value="tn">Tunisia</option>
+<option value="tr">Turkey</option>
+<option value="tm">Turkmenistan</option>
+<option value="tc">Turks and Caicos Islands</option>
+<option value="tv">Tuvalu</option>
+<option value="ae">U.A.E.</option>
+<option value="vi">U.S. Virgin Islands</option>
+<option value="ug">Uganda</option>
+<option value="ua">Ukraine</option>
+<option value="gb">United Kingdom</option>
+<option value="us" selected="selected">United States</option>
+<option value="um">United States Minor Outlying Islands</option>
+<option value="uy">Uruguay</option>
+<option value="uz">Uzbekistan</option>
+<option value="vu">Vanuatu</option>
+<option value="va">Vatican City</option>
+<option value="ve">Venezuela</option>
+<option value="vn">Vietnam</option>
+<option value="wf">Wallis and Futuna</option>
+<option value="eh">Western Sahara</option>
+<option value="ye">Yemen</option>
+<option value="zm">Zambia</option>
+<option value="zw">Zimbabwe</option>
+<option value="ax">Åland Islands</option>
+</select>
+          </div>
+                          <div class="field field-language ">
+            <select aria-required="true" id="id_lang" name="lang" required="required">
+<option value="id">Bahasa Indonesia</option>
+<option value="de">Deutsch</option>
+<option value="en" selected="selected">English</option>
+<option value="es">Español</option>
+<option value="fr">Français</option>
+<option value="pl">Polski</option>
+<option value="pt">Português</option>
+<option value="hu">magyar</option>
+<option value="ru">Русский</option>
+</select>
+          </div>
+                <div class="field field-format">
+          <label for="id_fmt_0"><input checked="checked" id="id_fmt_0" name="fmt" type="radio" value="H" /> HTML</label><label for="id_fmt_1"><input id="id_fmt_1" name="fmt" type="radio" value="T" /> Text</label>
+        </div>
+        <div class="field field-privacy ">
+          <label for="id_privacy" class="privacy-check-label"><input id="id_privacy" name="privacy" required="required" type="checkbox" /> <span class="title">I’m okay with Mozilla handling my info as explained in <a href="/en-US/privacy-policy">this Privacy Policy</a></span></label>
+        </div>
+      </div>
+    </div>
+
+    <div class="form-submit">
+      <input type="submit" id="footer_email_submit"
+             value="Sign me up »" class="button">
+
+      <p class="form-details">
+        <small>We will only send you Mozilla-related information.</small>
+      </p>
+    </div>
+  </form>
+
+    </div><!-- close #wrapper -->
+
+          <footer id="colophon" class="">
+      <div class="row">
+
+          <div class="footer-logo">
+              <a href="/en-US/"><img src="//mozorg.cdn.mozilla.net/media/img/sandstone/footer-mozilla.png" alt="mozilla"></a>
+          </div>
+
+          <div class="footer-license">
+              <p>
+                Portions of this content are ©1998–2014 by individual mozilla.org contributors. Content available under a <a href="/en-US/foundation/licensing/website-content/">Creative Commons license</a>.              </p>
+              <p>
+                <a href="/en-US/contribute/page/">Contribute to this page</a>
+              </p>
+          </div>
+          <ul class="footer-nav">
+            <li><a href="/en-US/contact/spaces/">Contact Us</a></li>
+            <li><a href="/en-US/about/partnerships/">Partner with Us</a></li>
+            <li><a href="https://sendto.mozilla.org/page/contribute/EOYFR2013-newdefault?source=mozillaorg_footer" class="donate">Donate</a></li>
+            <li><a href="/en-US/privacy/">Privacy Policy</a></li>
+            <li><a href="/en-US/about/legal.html">Legal Notices</a></li>
+            <li><a href="/en-US/legal/fraud-report/index.html">Report Trademark Abuse</a></li>
+          </ul>
+                    <ul class="footer-nav">
+            <li><a href="https://twitter.com/mozilla">Mozilla on Twitter</a></li>
+            <li><a href="https://twitter.com/firefox">Firefox on Twitter</a></li>
+            <li><a href="https://www.facebook.com/mozilla">Mozilla on Facebook</a></li>
+            <li><a href="https://www.facebook.com/Firefox">Firefox on Facebook</a></li>
+            <li><a href="https://affiliates.mozilla.org/">Firefox Affiliates</a></li>
+          </ul>
+                              <div class="footer-lang">
+                      </div>
+          
+      </div>
+      </footer>
+    
+    </div><!-- close #outer-wrapper -->
+
+    <!--[if IE 9]>
+      <script src="//mozorg.cdn.mozilla.net/media/js/libs/matchMedia.js"></script>
+    <![endif]-->
+
+      <script src="//mozorg.cdn.mozilla.net/media/js/firefox-resp-min.js?build=b41d3e8"></script>
+          <script src="//mozorg.cdn.mozilla.net/en-US/tabzilla/tabzilla.js?build=b41d3e8"></script>
+              </body>
+</html>

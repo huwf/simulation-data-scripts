@@ -1,0 +1,22 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 25.800000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.11', 20.400000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 15.800000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.2', 14.500000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 7.700000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.9', 4.100000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.7', 3.600000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.10', 3.200000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.1', 2.700000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.6', 1.800000 FROM CMSSoftware WHERE Name = 'WordPress';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.8', 0.500000 FROM CMSSoftware WHERE Name = 'WordPress';

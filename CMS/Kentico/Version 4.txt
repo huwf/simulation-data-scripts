@@ -1,0 +1,4 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 56.900000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 43.100000 FROM CMSSoftware WHERE Name = 'Kentico';

@@ -1,0 +1,12 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.6', 36.800000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.7', 31.600000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.8', 10.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.9', 10.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.2', 5.300000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4', 5.300000 FROM CMSSoftware WHERE Name = 'PrestaShop';

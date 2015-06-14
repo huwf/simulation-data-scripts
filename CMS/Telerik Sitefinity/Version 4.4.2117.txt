@@ -1,0 +1,2 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4.2117.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';

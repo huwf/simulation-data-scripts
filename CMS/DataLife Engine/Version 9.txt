@@ -1,0 +1,14 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.8', 36.200000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.7', 22.300000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.5', 12.300000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.6', 12.300000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.4', 9.200000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.0', 5.400000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.3', 2.300000 FROM CMSSoftware WHERE Name = 'DataLife Engine';

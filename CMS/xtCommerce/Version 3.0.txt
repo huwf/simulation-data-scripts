@@ -1,0 +1,6 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 98.100000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 1.500000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 0.400000 FROM CMSSoftware WHERE Name = 'xt:Commerce';

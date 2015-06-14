@@ -1,0 +1,2338 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3.3.1', 0.011424 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.0.5', 0.023256 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.1.1.1', 0.061965 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.2.2', 0.050990 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.2.1', 0.016636 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5.2.1', 0.108055 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5.2.2', 0.002205 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.0.2', 0.092604 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.0.1', 0.012270 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.1.2', 0.239470 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.1.1', 0.002674 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.1.3', 0.000972 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.2.1', 0.276486 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6.3.1', 0.055842 FROM CMSSoftware WHERE Name = 'Concrete5'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.3.5', 0.077900 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.15', 0.025411 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.14', 0.018353 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.12', 0.016564 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.8', 0.008847 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.10', 0.004706 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.6', 0.004706 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.11', 0.003576 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.13', 0.003576 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 0.002353 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 0.001788 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.7', 0.001788 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.9', 0.001788 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 0.000565 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.4', 0.050783 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.2', 0.037206 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.1', 0.021279 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.3', 0.015927 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.0', 0.005352 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.4', 0.110284 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.5', 0.079899 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.3', 0.037980 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.1', 0.029540 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.2', 0.023632 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 0.178230 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 0.060450 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 0.051480 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 0.044850 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 0.034320 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 0.020670 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.1', 0.021406 FROM CMSSoftware WHERE Name = 'CS-Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.0', 0.140175 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.1', 0.134505 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.2', 0.040005 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 8.3', 0.137500 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 8.5', 0.103125 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 8.0', 0.034375 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.8', 0.134625 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.7', 0.082875 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.5', 0.048750 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.6', 0.045750 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.4', 0.034500 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.0', 0.019875 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9.3', 0.008625 FROM CMSSoftware WHERE Name = 'DataLife Engine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 100.000000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5', 100.000000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 99.500000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6', 0.200000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5', 0.100000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 0.100000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9', 0.100000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 0.000000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.0', 100.000000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5.0', 100.000000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5', 62.500000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 37.500000 FROM CMSSoftware WHERE Name = 'Discuz!';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.0', 0.010704 FROM CMSSoftware WHERE Name = 'Discuz!'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.0', 0.005296 FROM CMSSoftware WHERE Name = 'Discuz!'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.2', 0.038995 FROM CMSSoftware WHERE Name = 'Discuz!'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 0.015180 FROM CMSSoftware WHERE Name = 'Discuz!'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.1', 0.000825 FROM CMSSoftware WHERE Name = 'Discuz!'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.580000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.220000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.080000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.060000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.040000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.020000 FROM CMSSoftware WHERE Name = 'DotNetNuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 54.500000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 18.200000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 18.200000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 9.100000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.5', 50.000000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.4', 35.700000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.7', 14.300000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4.1', 100.000000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 48.300000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4', 34.500000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 17.200000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 0.595000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.375000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.028000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.001000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.001000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 8', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.6', 26.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.11', 17.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.3', 12.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.2', 10.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.4', 10.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.7', 7.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.0', 5.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.10', 3.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.5', 3.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.1', 1.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7.12', 1.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 95.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 5.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.23', 17.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.7', 15.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.22', 9.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1', 5.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 5.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.10', 5.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3', 4.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.21', 3.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.12', 3.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.16', 3.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.15', 3.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.20', 3.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.14', 2.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.19', 2.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5', 2.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.11', 1.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.9', 1.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.18', 1.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6', 1.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.8', 1.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.17', 0.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 0.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.28', 18.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.30', 13.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.22', 12.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.26', 9.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.20', 8.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.19', 7.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.29', 4.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.31', 4.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.16', 3.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.25', 3.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.14', 2.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.24', 2.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.17', 2.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.15', 2.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.27', 1.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.13', 1.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.12', 0.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.10', 0.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.23', 0.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.9', 0.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.8', 0.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.11', 0.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.6', 0.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.4', 0.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.21', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.18', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.5', 0.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.7', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.26', 25.200000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.22', 14.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.23', 10.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.12', 8.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.27', 7.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.24', 7.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.15', 3.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.19', 3.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.21', 3.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.17', 2.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.20', 2.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.25', 1.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.16', 1.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.18', 1.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.10', 1.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 1.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.8', 1.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.9', 0.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.7', 0.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.28', 0.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.2', 0.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.4', 0.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.99', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.3', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.00000', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.5', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.801000 FROM CMSSoftware WHERE Name = 'eSyndiCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.128000 FROM CMSSoftware WHERE Name = 'eSyndiCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.071000 FROM CMSSoftware WHERE Name = 'eSyndiCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.6', 82.100000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.7', 17.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.06', 84.600000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.04', 8.400000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.03', 3.100000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.05', 1.800000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.01', 1.300000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.02', 0.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.05', 80.500000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.03', 10.100000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.04', 5.500000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.02', 2.200000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.01', 1.200000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.00', 0.400000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.1', 53.600000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.2', 46.400000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.0', 100.000000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3', 56.500000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2', 27.700000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5', 9.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4', 5.800000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.7', 26.500000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.8', 20.600000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 17.600000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 14.700000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 14.700000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 2.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 2.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.1', 91.800000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.0', 8.200000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1', 57.100000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.0', 42.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 60.700000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 24.300000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 15.000000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.478000 FROM CMSSoftware WHERE Name = 'Joomla'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.425000 FROM CMSSoftware WHERE Name = 'Joomla'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.097000 FROM CMSSoftware WHERE Name = 'Joomla'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 93.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.7', 4.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.6', 2.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 0.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.19', 19.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.14', 12.700000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.11', 10.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.9', 8.200000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.8', 7.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.6', 7.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.17', 7.200000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.16', 6.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.18', 5.700000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.7', 4.800000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.4', 4.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.20', 2.300000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.1', 1.300000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.13', 0.900000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.3', 0.900000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.0', 0.500000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.10', 0.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.2', 0.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.5', 0.100000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.15', 0.100000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.12', 0.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5', 100.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.7', 0.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 60.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 25.900000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 7.500000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 5.100000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.0', 1.500000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.5', 58.500000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.1', 35.200000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.4', 3.500000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.6', 1.800000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.0', 1.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.3', 56.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1', 16.800000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.2', 15.300000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.0', 10.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.4', 0.800000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.0', 100.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 57.800000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 26.700000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 10.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 4.900000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.12', 0.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.353000 FROM CMSSoftware WHERE Name = 'Kentico'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.254000 FROM CMSSoftware WHERE Name = 'Kentico'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 0.189000 FROM CMSSoftware WHERE Name = 'Kentico'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.114000 FROM CMSSoftware WHERE Name = 'Kentico'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.090000 FROM CMSSoftware WHERE Name = 'Kentico'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 100.000000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 56.900000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 43.100000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5', 71.800000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 28.200000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 100.000000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 100.000000 FROM CMSSoftware WHERE Name = 'Kentico';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.733000 FROM CMSSoftware WHERE Name = 'Liferay'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.235000 FROM CMSSoftware WHERE Name = 'Liferay'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.028000 FROM CMSSoftware WHERE Name = 'Liferay'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.004000 FROM CMSSoftware WHERE Name = 'Liferay'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1', 84.400000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.2', 12.500000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.0', 3.100000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.4', 30.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.1', 20.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.3', 20.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.6', 20.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.0', 10.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 65.300000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 20.400000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4', 12.200000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 2.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.1', 50.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.2', 42.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.4', 5.900000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.0', 1.500000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3', 80.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.2', 11.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.1', 4.200000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.6', 1.400000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.0', 1.000000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.5', 0.700000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.4', 0.300000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 81.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1', 16.700000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 1.200000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3', 0.500000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.6', 70.700000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.5', 25.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4', 2.300000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.3', 1.200000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.1', 44.300000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.0', 24.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.20', 18.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.2', 8.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.30', 3.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.0', 81.800000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.10', 18.200000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1', 53.500000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 43.600000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2', 2.900000 FROM CMSSoftware WHERE Name = 'Liferay';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 1.000000 FROM CMSSoftware WHERE Name = 'MediaWiki'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.3', 39.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.2', 28.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.1', 17.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.0', 6.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.5', 6.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13.4', 2.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.14.0', 97.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.14.1', 2.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.1', 55.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.5', 12.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.3', 10.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.4', 10.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.0', 5.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15.2', 4.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.0', 46.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.5', 21.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.2', 18.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.4', 6.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.1', 5.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16.3', 1.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.17.0', 85.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.17.2', 5.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.17.5', 5.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.17.1', 2.900000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.1', 53.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.0', 25.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.2', 12.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.3', 7.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18.5', 1.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.2', 25.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.1', 24.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.0', 10.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.15', 9.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.3', 6.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.11', 5.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.4', 3.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.7', 3.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.8', 3.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.5', 2.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.13', 2.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.9', 1.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.14', 0.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.6', 0.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.10', 0.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19.12', 0.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.2', 41.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.3', 20.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.0', 11.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.5', 8.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.4', 7.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.6', 5.900000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.8', 3.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.1', 1.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20.7', 0.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.1', 41.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.2', 32.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.3', 10.900000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.8', 4.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.9', 4.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.0', 2.300000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.5', 1.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.7', 1.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.6', 0.900000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21.4', 0.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.5', 22.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.2', 19.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.0', 17.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.1', 12.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.6', 11.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.4', 9.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22.3', 8.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.22', 17.500000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.19', 14.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.21', 12.800000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.20', 11.900000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.16', 11.600000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.15', 9.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.18', 8.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.17', 6.200000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.13', 2.700000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.14', 2.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.23', 1.400000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.24', 1.000000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 0.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.12', 0.100000 FROM CMSSoftware WHERE Name = 'MediaWiki';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.400000 FROM CMSSoftware WHERE Name = 'Movable Type'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.368000 FROM CMSSoftware WHERE Name = 'Movable Type'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.211000 FROM CMSSoftware WHERE Name = 'Movable Type'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.021000 FROM CMSSoftware WHERE Name = 'Movable Type'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 26.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.33', 21.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.35', 16.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.34', 13.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.21', 7.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.36', 3.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.31', 3.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.32', 2.600000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.37', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.38', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 1.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.17', 0.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.261', 14.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.25', 9.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.23', 9.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 9.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.28', 5.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.27', 5.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.38', 5.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.21', 5.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.34', 5.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.22', 3.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.24', 3.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.01', 3.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.32', 2.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.13', 2.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.37', 2.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 1.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.292', 1.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.12', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.35', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 1.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 1.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.31', 1.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.26', 0.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.14', 0.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.36', 0.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.33', 0.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.361', 0.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.29', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.291', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.381', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3', 29.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.7', 24.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.9', 15.600000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.2', 13.600000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.6', 8.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.8', 4.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.10', 3.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 24.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.04', 13.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.02', 13.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.12', 12.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.13', 10.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.01', 6.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.14', 6.600000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.11', 3.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.031', 2.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 2.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.03', 1.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.06', 1.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.07', 0.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1', 0.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.161', 0.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.17', 0.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.051', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.1', 38.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.3', 32.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.2', 26.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.476', 2.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 100.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.809000 FROM CMSSoftware WHERE Name = 'NetCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.169000 FROM CMSSoftware WHERE Name = 'NetCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.011000 FROM CMSSoftware WHERE Name = 'NetCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.011000 FROM CMSSoftware WHERE Name = 'NetCat'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.244', 43.500000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.243', 19.600000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.245', 19.600000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.242', 13.000000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.240', 2.200000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.241', 2.200000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4', 94.400000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3', 5.600000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 73.300000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 13.300000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 13.300000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.418000 FROM CMSSoftware WHERE Name = 'PHP Link Directory'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.262000 FROM CMSSoftware WHERE Name = 'PHP Link Directory'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.213000 FROM CMSSoftware WHERE Name = 'PHP Link Directory'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.106000 FROM CMSSoftware WHERE Name = 'PHP Link Directory'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.001000 FROM CMSSoftware WHERE Name = 'PHP Link Directory'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.2', 86.900000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.3', 8.700000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.1', 2.900000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.0', 1.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2', 68.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1', 31.400000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.151', 0.400000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0', 0.100000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 78.300000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 16.700000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 3.300000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 1.700000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 43.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 30.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4', 13.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 6.700000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 6.200000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.0', 100.000000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.2', 76.200000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1', 14.600000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.0', 9.300000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 42.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 29.300000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 28.100000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.0', 81.600000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.5', 18.400000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.5', 86.100000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.0', 13.900000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.2', 53.100000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.1', 26.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.0', 20.400000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1', 45.900000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 40.600000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 13.500000 FROM CMSSoftware WHERE Name = 'PHP Link Directory';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.445000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 0.380000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.095000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 9', 0.036000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.029000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 8', 0.015000 FROM CMSSoftware WHERE Name = 'PHP-Nuke'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5', 38.500000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 23.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6', 23.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 15.400000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.5', 37.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 20.700000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.9', 20.700000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.8', 15.500000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.7', 3.400000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2', 1.700000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 48.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.9', 28.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.1', 7.700000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.6', 3.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.8', 3.800000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.01', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.2', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.4', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.7', 1.900000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.621000 FROM CMSSoftware WHERE Name = 'Plone'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.379000 FROM CMSSoftware WHERE Name = 'Plone'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 77.800000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 17.800000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 4.400000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.4', 100.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.5', 55.800000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.2', 15.900000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.3', 14.200000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.1', 11.500000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.4', 2.700000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5', 65.200000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0', 27.600000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1', 7.200000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 50.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 41.700000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 8.300000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.7', 62.500000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.6', 14.300000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.5', 10.700000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.2', 5.400000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.1', 3.600000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.3', 1.800000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.4', 1.800000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.2', 47.500000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1', 27.500000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.3', 25.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.5', 61.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.6', 22.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.4', 7.300000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.1', 5.100000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.2', 4.000000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.3', 0.600000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 63.200000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 19.300000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 13.500000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 4.100000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.967000 FROM CMSSoftware WHERE Name = 'PrestaShop'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 33', 0.033000 FROM CMSSoftware WHERE Name = 'PrestaShop'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.6', 36.800000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.7', 31.600000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.8', 10.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.9', 10.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.2', 5.300000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4', 5.300000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.6', 90.000000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.4', 10.000000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4', 65.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 34.500000 FROM CMSSoftware WHERE Name = 'PrestaShop';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 1.000000 FROM CMSSoftware WHERE Name = 'SilverStripe'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0', 58.100000 FROM CMSSoftware WHERE Name = 'SilverStripe';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3', 41.900000 FROM CMSSoftware WHERE Name = 'SilverStripe';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.491000 FROM CMSSoftware WHERE Name = 'SPIP'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.329000 FROM CMSSoftware WHERE Name = 'SPIP'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.180000 FROM CMSSoftware WHERE Name = 'SPIP'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.8.3', 54.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.8.2', 45.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.9.2', 86.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.9.1', 12.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.9.3', 0.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.9', 88.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.8', 11.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.10', 39.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.9', 19.000000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.8', 11.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 4.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.7', 4.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.2', 2.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.23', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.25', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.6', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.11', 1.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.17', 1.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.0', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.12', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.1', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.13', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.18', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.21', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.22', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.24', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.15', 0.400000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.12', 14.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.10', 14.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.23', 13.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.8', 9.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.26', 6.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.19', 6.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.0', 5.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.11', 4.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.25', 3.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.2', 3.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.9', 2.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.14', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.24', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.1', 1.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.13', 1.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.17', 1.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.16', 1.400000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.20', 1.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.21', 1.000000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.15', 0.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.6', 0.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.22', 0.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.5', 0.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1', 79.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0', 20.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.16', 25.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 13.000000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.11', 11.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.10', 9.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.13', 8.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.14', 8.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.15', 5.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.8', 3.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 3.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.17', 2.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.7', 2.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 1.400000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 1.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 0.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.9', 0.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.0', 0.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 0.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 100.000000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.544000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.218000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 0.167000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.067000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 0.005000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1616', 60.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1526', 26.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1598', 13.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1747.2', 44.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1747.4', 22.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1747.1', 16.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1747.3', 16.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1747', 78.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1714', 17.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1712', 4.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1870.2', 81.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1870.220', 12.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1870.1', 6.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936.2', 68.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936.220', 11.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936.420', 8.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936.1', 5.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936.3', 5.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1936', 64.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1870', 29.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1861', 1.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1875', 1.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1920', 1.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1990.2', 58.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1990.220', 29.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1990.3', 11.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022.2', 55.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022.220', 16.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022.5', 16.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022.3', 5.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022.320', 5.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2057.2', 80.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2057.220', 9.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2057.3', 7.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2057.120', 3.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.2', 84.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.3', 6.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.4', 4.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.1', 2.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.220', 1.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096.320', 0.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.240', 82.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.2', 11.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.340', 2.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.220', 1.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.3', 0.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.1', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136.140', 0.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2136', 77.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2096', 11.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2022', 4.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2057', 3.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1990', 1.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2152', 0.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2153', 0.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2085', 0.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2151', 0.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7', 93.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6', 3.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5', 1.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 1.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 0.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 0.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.1210', 56.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.1098', 43.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1395.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1501.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1395', 37.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1501', 37.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1574', 11.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1339', 7.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1405', 3.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1524', 3.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1650.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1733.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1650', 53.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1733', 43.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1679', 3.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.1885.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.1885', 73.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.1873', 26.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4.2117.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4.2117', 98.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4.2242', 1.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4', 46.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 16.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 14.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 14.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 8.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2500.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2523.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2800.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2860.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2860', 44.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2523', 23.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2800', 18.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0.2500', 13.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3210.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3270.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3450.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3450', 46.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3270', 31.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3210', 18.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3200', 2.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1.3583', 0.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3700.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3800.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3800', 61.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3700', 38.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3.3900.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3.3900', 93.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3.3920', 4.300000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3.3800', 2.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4000.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4010.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4020.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4040.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4010', 56.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4040', 18.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4020', 16.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4000', 7.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4.4042', 1.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.4', 31.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.1', 23.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 18.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 15.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.3', 9.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4100.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4200.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4210.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4210', 42.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4200', 32.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4100', 23.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0.4124', 0.800000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4300.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4600.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4700.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4300', 42.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4700', 28.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4600', 27.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1.4601', 2.200000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.4900.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.4910.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.4910', 80.400000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2.4900', 19.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5000.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5000', 89.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5028', 2.100000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5013', 1.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5022', 1.600000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5001', 1.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5014', 1.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5011', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5016', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5017', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5020', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5023', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3.5027', 0.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.3', 31.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1', 29.900000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 19.700000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2', 18.500000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0.5100.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0.5100', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 100.000000 FROM CMSSoftware WHERE Name = 'Telerik Sitefinity';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.887000 FROM CMSSoftware WHERE Name = 'TYPO3'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 0.108000 FROM CMSSoftware WHERE Name = 'TYPO3'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.006000 FROM CMSSoftware WHERE Name = 'TYPO3'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8', 68.700000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7', 22.200000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6', 9.100000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.5', 55.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 17.700000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4', 7.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 7.000000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 5.300000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 3.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 2.900000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 1.000000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.1', 72.200000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.0', 23.000000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6.2', 4.900000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 1.000000 FROM CMSSoftware WHERE Name = 'Umbraco'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 92.000000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 4.800000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.8', 3.200000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.9', 0.100000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.553000 FROM CMSSoftware WHERE Name = 'vBulletin'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.447000 FROM CMSSoftware WHERE Name = 'vBulletin'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.7', 24.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.9', 17.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 13.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 13.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 10.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.0', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.12', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.14', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.17', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 3.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.4', 44.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.3', 20.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1', 10.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.0', 8.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.2', 8.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.8', 4.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.6', 2.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.7', 2.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.8', 39.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.4', 15.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.7', 14.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.5', 8.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.12', 5.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.2', 4.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.0', 3.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.3', 3.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.9', 2.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1', 1.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.11', 1.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.10', 0.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.3', 28.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.4', 22.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2', 19.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.0', 14.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1', 7.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.5', 3.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.6', 3.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.7', 0.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.7', 55.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.4', 15.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.6', 8.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.5', 6.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.2', 4.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.1', 3.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.3', 3.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.8', 2.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.0', 1.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8', 86.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7', 6.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6', 5.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5', 0.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 0.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 0.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.8', 18.600000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.3', 17.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.7', 12.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.2', 12.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.6', 11.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.5', 10.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.4', 7.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.0', 4.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.1', 3.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.12', 17.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.10', 14.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.5', 12.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.11', 11.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.3', 7.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.8', 7.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.4', 6.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.7', 5.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.9', 5.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.2', 5.200000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.0', 3.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.1', 2.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1.6', 1.600000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.2', 43.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.0', 33.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2.1', 23.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 75.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 19.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 4.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.5', 0.000000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.2', 73.300000 FROM CMSSoftware WHERE Name = 'Version 1.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5.1', 26.700000 FROM CMSSoftware WHERE Name = 'Version 1.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 49.400000 FROM CMSSoftware WHERE Name = 'Version 1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 22.800000 FROM CMSSoftware WHERE Name = 'Version 1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2', 12.700000 FROM CMSSoftware WHERE Name = 'Version 1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1', 10.100000 FROM CMSSoftware WHERE Name = 'Version 1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.3', 5.100000 FROM CMSSoftware WHERE Name = 'Version 1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 25.800000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.11', 20.400000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 15.800000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.2', 14.500000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 7.700000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.9', 4.100000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.7', 3.600000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.10', 3.200000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.1', 2.700000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.6', 1.800000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.8', 0.500000 FROM CMSSoftware WHERE Name = 'Version 2.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.3', 42.600000 FROM CMSSoftware WHERE Name = 'Version 2.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.2', 39.700000 FROM CMSSoftware WHERE Name = 'Version 2.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.0', 10.300000 FROM CMSSoftware WHERE Name = 'Version 2.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.1', 5.900000 FROM CMSSoftware WHERE Name = 'Version 2.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1.4', 1.500000 FROM CMSSoftware WHERE Name = 'Version 2.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.1', 37.100000 FROM CMSSoftware WHERE Name = 'Version 2.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.3', 32.400000 FROM CMSSoftware WHERE Name = 'Version 2.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.2', 30.000000 FROM CMSSoftware WHERE Name = 'Version 2.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.5', 0.500000 FROM CMSSoftware WHERE Name = 'Version 2.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.3', 53.800000 FROM CMSSoftware WHERE Name = 'Version 2.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.1', 25.600000 FROM CMSSoftware WHERE Name = 'Version 2.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.2', 20.200000 FROM CMSSoftware WHERE Name = 'Version 2.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3.0', 0.300000 FROM CMSSoftware WHERE Name = 'Version 2.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.1', 99.200000 FROM CMSSoftware WHERE Name = 'Version 2.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.2', 0.400000 FROM CMSSoftware WHERE Name = 'Version 2.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.6', 0.400000 FROM CMSSoftware WHERE Name = 'Version 2.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6.2', 36.000000 FROM CMSSoftware WHERE Name = 'Version 2.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6.5', 22.800000 FROM CMSSoftware WHERE Name = 'Version 2.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6.3', 22.100000 FROM CMSSoftware WHERE Name = 'Version 2.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6.1', 18.900000 FROM CMSSoftware WHERE Name = 'Version 2.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6.7', 0.200000 FROM CMSSoftware WHERE Name = 'Version 2.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.7.1', 99.900000 FROM CMSSoftware WHERE Name = 'Version 2.7';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.7.2', 0.100000 FROM CMSSoftware WHERE Name = 'Version 2.7';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.4', 46.900000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.6', 28.400000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.5', 13.900000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.2', 5.100000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.3', 3.200000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8.1', 2.500000 FROM CMSSoftware WHERE Name = 'Version 2.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.9.2', 77.100000 FROM CMSSoftware WHERE Name = 'Version 2.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.9.1', 22.900000 FROM CMSSoftware WHERE Name = 'Version 2.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.9.9', 0.000000 FROM CMSSoftware WHERE Name = 'Version 2.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.9', 38.700000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.8', 26.400000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.7', 13.000000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.6', 7.500000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.3', 4.200000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5', 3.700000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2', 2.800000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0', 2.700000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.1', 1.100000 FROM CMSSoftware WHERE Name = 'Version 2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.1', 48.600000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 24.800000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.5', 11.800000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 10.300000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 3.900000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.6', 0.600000 FROM CMSSoftware WHERE Name = 'Version 3.0';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.3', 35.900000 FROM CMSSoftware WHERE Name = 'Version 3.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.2', 26.800000 FROM CMSSoftware WHERE Name = 'Version 3.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.4', 20.000000 FROM CMSSoftware WHERE Name = 'Version 3.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.1', 17.400000 FROM CMSSoftware WHERE Name = 'Version 3.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1.0', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.1';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.1', 100.000000 FROM CMSSoftware WHERE Name = 'Version 3.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2.3', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.2';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.1', 62.800000 FROM CMSSoftware WHERE Name = 'Version 3.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.2', 36.900000 FROM CMSSoftware WHERE Name = 'Version 3.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3.3', 0.300000 FROM CMSSoftware WHERE Name = 'Version 3.3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.2', 64.600000 FROM CMSSoftware WHERE Name = 'Version 3.4';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.1', 35.400000 FROM CMSSoftware WHERE Name = 'Version 3.4';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.3', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.4';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.0', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.4';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4.4', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.4';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.1', 71.300000 FROM CMSSoftware WHERE Name = 'Version 3.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.2', 28.700000 FROM CMSSoftware WHERE Name = 'Version 3.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.3', 0.100000 FROM CMSSoftware WHERE Name = 'Version 3.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.0', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5.5', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.5';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.1', 100.000000 FROM CMSSoftware WHERE Name = 'Version 3.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6.2', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.6';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.3', 58.200000 FROM CMSSoftware WHERE Name = 'Version 3.7';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1', 32.900000 FROM CMSSoftware WHERE Name = 'Version 3.7';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2', 8.900000 FROM CMSSoftware WHERE Name = 'Version 3.7';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.3', 65.200000 FROM CMSSoftware WHERE Name = 'Version 3.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.1', 19.200000 FROM CMSSoftware WHERE Name = 'Version 3.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.2', 15.600000 FROM CMSSoftware WHERE Name = 'Version 3.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8.5', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.8';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.1', 100.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.8', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.06', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.2', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.54', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9.9', 0.000000 FROM CMSSoftware WHERE Name = 'Version 3.9';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.8', 41.200000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.9', 20.000000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.5', 12.500000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.6', 8.100000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7', 6.600000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.4', 4.800000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.3', 3.000000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.2', 1.400000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 1.100000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.1', 1.100000 FROM CMSSoftware WHERE Name = 'Version 3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.985000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.015000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.000000 FROM CMSSoftware WHERE Name = 'WordPress'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.05', 50.000000 FROM CMSSoftware WHERE Name = 'XOOPS';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 40.000000 FROM CMSSoftware WHERE Name = 'XOOPS';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.3', 10.000000 FROM CMSSoftware WHERE Name = 'XOOPS';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.714000 FROM CMSSoftware WHERE Name = 'XOOPS'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 0.286000 FROM CMSSoftware WHERE Name = 'XOOPS'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1.5', 61.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1.1', 27.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1.0', 5.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1.3', 5.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2.4', 56.500000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2.3', 17.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2.0', 8.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2.1', 8.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2.5', 8.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.10', 28.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.7', 23.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.11', 19.000000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.3', 14.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.5', 9.500000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0.9', 4.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.4', 55.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.3', 20.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.1', 16.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.2', 8.200000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.10', 39.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.7', 28.500000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.9', 8.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.20', 4.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.21', 4.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.13', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.19', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.5', 3.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.11', 1.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.15', 1.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.4', 1.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5.8', 0.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.5', 55.200000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4', 22.000000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.0', 9.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.3', 8.500000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.2', 2.700000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.1', 2.200000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4', 81.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.2', 8.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.1', 6.600000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.3', 1.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.7', 1.800000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 1.000000 FROM CMSSoftware WHERE Name = 'XpressEngine'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.4', 98.100000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.3', 1.500000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0.2', 0.400000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.0', 99.800000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.04', 0.200000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.14', 43.600000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.16', 25.000000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.13', 21.900000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.15', 5.000000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0.12', 4.400000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 99.400000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 0.600000 FROM CMSSoftware WHERE Name = 'xt:Commerce';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.647000 FROM CMSSoftware WHERE Name = 'xtCommerce'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.353000 FROM CMSSoftware WHERE Name = 'xtCommerce'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 0.267000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 92', 0.267000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 0.200000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 01', 0.067000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 0.067000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 21', 0.067000 FROM CMSSoftware WHERE Name = 'Zen Cart'
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 35', 0.067000 FROM CMSSoftware WHERE Name = 'Zen Cart'

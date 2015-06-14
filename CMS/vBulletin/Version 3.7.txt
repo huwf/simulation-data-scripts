@@ -1,0 +1,16 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.3', 28.400000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.4', 22.800000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.2', 19.100000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.0', 14.500000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.1', 7.900000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.5', 3.700000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.6', 3.300000 FROM CMSSoftware WHERE Name = 'vBulletin';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3.7.7', 0.200000 FROM CMSSoftware WHERE Name = 'vBulletin';

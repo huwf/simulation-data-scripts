@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.5', 93.000000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.7', 4.600000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.6', 2.400000 FROM CMSSoftware WHERE Name = 'Joomla';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.0', 0.000000 FROM CMSSoftware WHERE Name = 'Joomla';

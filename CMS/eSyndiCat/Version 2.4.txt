@@ -1,0 +1,4 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.1', 51.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.4.2', 48.100000 FROM CMSSoftware WHERE Name = 'eSyndiCat';

@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 91.900000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 4.800000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.8', 3.200000 FROM CMSSoftware WHERE Name = 'Umbraco';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.9', 0.100000 FROM CMSSoftware WHERE Name = 'Umbraco';

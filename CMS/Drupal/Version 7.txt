@@ -1,0 +1,52 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.26', 24.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.22', 14.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.23', 10.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.27', 8.500000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.12', 8.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.24', 6.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.15', 3.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.19', 3.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.21', 3.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.17', 2.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.20', 2.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.25', 1.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.16', 1.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.18', 1.700000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.10', 1.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.0', 1.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.8', 1.100000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.28', 0.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.9', 0.800000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.7', 0.600000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.2', 0.400000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.4', 0.300000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.99', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.3', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.00000', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7.5', 0.000000 FROM CMSSoftware WHERE Name = 'Drupal';

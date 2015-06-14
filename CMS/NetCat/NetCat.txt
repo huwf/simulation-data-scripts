@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2', 80.900000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 16.900000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 1.100000 FROM CMSSoftware WHERE Name = 'NetCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 1.100000 FROM CMSSoftware WHERE Name = 'NetCat';

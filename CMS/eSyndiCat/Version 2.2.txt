@@ -1,0 +1,12 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.06', 85.000000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.04', 8.400000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.03', 2.700000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.05', 1.800000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.01', 1.300000 FROM CMSSoftware WHERE Name = 'eSyndiCat';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.02', 0.900000 FROM CMSSoftware WHERE Name = 'eSyndiCat';

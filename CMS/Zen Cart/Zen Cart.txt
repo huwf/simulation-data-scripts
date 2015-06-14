@@ -1,0 +1,14 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 26.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 92', 26.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 7', 20.000000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 01', 6.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1', 6.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 21', 6.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 35', 6.700000 FROM CMSSoftware WHERE Name = 'Zen Cart';

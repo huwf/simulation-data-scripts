@@ -1,0 +1,16 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.5', 55.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 17.700000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.4', 7.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 7.000000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 5.200000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 3.400000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 2.900000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 1.000000 FROM CMSSoftware WHERE Name = 'TYPO3';

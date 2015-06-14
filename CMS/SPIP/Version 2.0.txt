@@ -1,0 +1,44 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.10', 39.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.9', 18.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.8', 11.400000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.3', 4.600000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.7', 4.200000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.2', 2.700000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.25', 2.300000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.17', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.23', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.6', 1.900000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.11', 1.500000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.0', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.12', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.5', 1.100000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.1', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.13', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.18', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.21', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.22', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.24', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.4', 0.800000 FROM CMSSoftware WHERE Name = 'SPIP';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.0.15', 0.400000 FROM CMSSoftware WHERE Name = 'SPIP';

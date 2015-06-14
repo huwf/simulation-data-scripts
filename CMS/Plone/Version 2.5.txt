@@ -1,0 +1,10 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.5', 55.400000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.2', 16.100000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.3', 14.300000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.1', 11.600000 FROM CMSSoftware WHERE Name = 'Plone';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.5.4', 2.700000 FROM CMSSoftware WHERE Name = 'Plone';

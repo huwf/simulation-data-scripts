@@ -1,0 +1,14 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.3', 30.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.7', 23.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.9', 15.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.2', 13.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.6', 8.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.10', 4.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2.8', 4.100000 FROM CMSSoftware WHERE Name = 'Movable Type';

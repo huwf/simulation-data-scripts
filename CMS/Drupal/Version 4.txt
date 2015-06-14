@@ -1,0 +1,4 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.7', 94.900000 FROM CMSSoftware WHERE Name = 'Drupal';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.6', 5.100000 FROM CMSSoftware WHERE Name = 'Drupal';

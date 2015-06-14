@@ -1,0 +1,10 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.4', 39.200000 FROM CMSSoftware WHERE Name = 'CS-Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.5', 28.300000 FROM CMSSoftware WHERE Name = 'CS-Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.3', 13.500000 FROM CMSSoftware WHERE Name = 'CS-Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.1', 10.500000 FROM CMSSoftware WHERE Name = 'CS-Cart';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 2.2.2', 8.400000 FROM CMSSoftware WHERE Name = 'CS-Cart';

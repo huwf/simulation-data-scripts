@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.5', 38.500000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.0', 23.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.6', 23.100000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5.2', 15.400000 FROM CMSSoftware WHERE Name = 'PHP-Nuke';

@@ -1,0 +1,6 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.0', 44.500000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.1', 42.700000 FROM CMSSoftware WHERE Name = 'DataLife Engine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 10.2', 12.700000 FROM CMSSoftware WHERE Name = 'DataLife Engine';

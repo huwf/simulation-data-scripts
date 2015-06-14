@@ -1,0 +1,2 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 100.000000 FROM CMSSoftware WHERE Name = 'Umbraco';

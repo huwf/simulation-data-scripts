@@ -1,0 +1,6 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.5', 50.000000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.4', 35.700000 FROM CMSSoftware WHERE Name = 'DotNetNuke';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3.7', 14.300000 FROM CMSSoftware WHERE Name = 'DotNetNuke';

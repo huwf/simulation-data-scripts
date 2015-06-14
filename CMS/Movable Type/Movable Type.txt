@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 40.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 5', 36.800000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 21.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 2.200000 FROM CMSSoftware WHERE Name = 'Movable Type';

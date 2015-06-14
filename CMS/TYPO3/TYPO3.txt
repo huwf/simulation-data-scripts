@@ -1,0 +1,6 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4', 88.600000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 6', 10.800000 FROM CMSSoftware WHERE Name = 'TYPO3';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 3', 0.600000 FROM CMSSoftware WHERE Name = 'TYPO3';

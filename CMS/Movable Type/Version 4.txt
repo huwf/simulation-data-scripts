@@ -1,0 +1,60 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.261', 14.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.25', 9.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.23', 9.600000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.1', 9.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.28', 6.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.27', 5.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.38', 5.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.21', 5.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.34', 5.300000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.22', 3.700000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.24', 3.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.01', 3.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.32', 2.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.13', 2.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.37', 2.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.0', 1.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.292', 1.500000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.12', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.35', 1.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.2', 1.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.3', 1.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.31', 1.000000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.26', 0.900000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.36', 0.400000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.14', 0.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.33', 0.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.361', 0.200000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.29', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.291', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 4.381', 0.100000 FROM CMSSoftware WHERE Name = 'Movable Type';

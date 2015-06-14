@@ -1,0 +1,8 @@
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.4', 55.100000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.3', 20.400000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.1', 16.300000 FROM CMSSoftware WHERE Name = 'XpressEngine';
+INSERT INTO CMSVersion(CMSId,Version,Share)
+SELECT CMSId, 'Version 1.4.4.2', 8.200000 FROM CMSSoftware WHERE Name = 'XpressEngine';
